@@ -1,5 +1,5 @@
 {% set name = "schemainspect" %}
-{% set version = "3.1.1663062229" %}
+{% set version = "3.1.1663485973" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/schemainspect-{{ version }}.tar.gz
-  sha256: 625507658f4971a4a3cd0a4afe7ce40e66158fe5fcbd57f426e307434f5742e6
+  sha256: b532ab327408ebf3beab78d8972a741b14421fae173bc44cc4fc66d8b3669630
 
 build:
   entry_points:
